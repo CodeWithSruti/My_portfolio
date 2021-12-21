@@ -1,44 +1,36 @@
-body{
+#app {
+    width: 100%;
+    height: 800px;
+    background-color: aliceblue;
+}
+
+.container
+{
     text-align: center;
-
 }
 
-h1{
-    font-size: 40px;
-    font-family:sans-serif;
-    font-weight:300;
+/*Start your code from here */
+#myCarousel{
+    background-color:red;
 }
 
-#app{
-    height:800px;
-    width:100%;
-        background-color: cyan;
+#myCarousel img{
+    height:300px;
+    margin-top:35px;
 }
 
-#games{
-    height:800px;
-    width:100%;
-        background-color: magenta;
+.carousel-inner p {
+ margin-bottom:15px;
+margin-top: 15px;
+    color:white;
+    font-size:20px;
 }
 
-#chat_bot{
-    height:800px;
-    width:100%;
-        background-color: chartreuse;
+#myCarousel2{
+    background-color:aquamarine;
 }
 
-img{
-    transition: transform 0.2s;
-
-}
-
-img:hover{
-    transform:scale (0.9);
-}
-
-.line{
-    height:6px;
-    width:70px;
-    background-clip: black;
-    margin:8px auto;
+#myCarousel2 img{
+    height:300px;
+    margin-top:35px;
 }
